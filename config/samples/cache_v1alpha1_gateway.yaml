@@ -1,0 +1,12 @@
+apiVersion: cache.example.com/v1alpha1
+kind: Gateway
+metadata:
+  labels:
+    app.kubernetes.io/name: gateway
+    app.kubernetes.io/instance: gateway-sample
+    app.kubernetes.io/part-of: gateway-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: gateway-operator
+  name: gateway-sample
+spec:
+  # TODO(user): Add fields here
